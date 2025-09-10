@@ -23,3 +23,17 @@ en Java. En este diseño, las entidades representa los modelos de datos de la ap
 ## Patrones 
 Un patron es una solución aprobada y generalizable para un problema recurrente en el diseño del software.
 - Patron MVC (Modelo - Vista - Controlador): Este patron se refleja en la organización de los paquetes Controller, Servicios y Entity 
+## Entidades y sus Datos
+1. Usuarios.
+id_usuario (PK)
+nombre
+rol (administrador, supermercado,frutería,organización social)
+correo
+contraseña
+Se hace una relación de usuarios puede registrar productos, generar donaciones o administrar el sistema.
+2. Productos
+id_producto (PK)
+nombre 
+proveedor
+fecha_registro
+fecha_vencimiento
