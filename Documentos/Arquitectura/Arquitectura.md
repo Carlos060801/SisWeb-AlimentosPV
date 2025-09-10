@@ -102,4 +102,3 @@ Productos (1:N) Alertas
 =======
 -----------------------------------------------------------
 👉 Relación: cada producto pertenece a un supermercado/frutería (usuario).
->>>>>>> c327abd2a6f36dc680b46bfaaad0171c014e851c
