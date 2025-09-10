@@ -1,0 +1,56 @@
+<section class="panel" id="alertas">
+  <h2>Alertas automáticas</h2>
+  <p class="muted">Notificaciones generadas según fechas de vencimiento.</p>
+
+  <!-- leyenda -->
+  <div class="legend row gap">
+    <span class="dot ok"></span> Verde: vigentes
+    <span class="dot warn" style="margin-left:1.5rem"></span> Amarillo: próximos a vencer (7 días)
+    <span class="dot danger" style="margin-left:1.5rem"></span> Rojo: alimentos para donación (5 días)
+  </div>
+
+  <!-- tarjetas en 3 columnas -->
+  <div class="cards three" style="margin-top:1rem">
+    <!-- Amarillo -->
+    <article class="card">
+      <header class="row between center">
+        <div class="row center gap">
+          <span class="dot warn"></span>
+          <h3 class="h4" style="margin:0">Notificación 1 — 7 días antes</h3>
+        </div>
+        <span class="chip">Promoción especial</span>
+      </header>
+      <div class="list soft" id="alerta-7" style="margin-top:.75rem">
+        <!-- JS pinta aquí -->
+      </div>
+    </article>
+
+    <!-- Rojo -->
+    <article class="card">
+      <header class="row between center">
+        <div class="row center gap">
+          <span class="dot danger"></span>
+          <h3 class="h4" style="margin:0">Notificación 2 — 5 días antes</h3>
+        </div>
+        <span class="chip danger">Donación</span>
+      </header>
+      <div class="list soft" id="alerta-5" style="margin-top:.75rem">
+        <!-- JS pinta aquí -->
+      </div>
+    </article>
+
+    <!-- Verde -->
+    <article class="card">
+      <header class="row between center">
+        <div class="row center gap">
+          <span class="dot ok"></span>
+          <h3 class="h4" style="margin:0">Vigentes</h3>
+        </div>
+        <span class="chip ghost">En buen estado</span>
+      </header>
+      <div class="list soft" id="alerta-ok" style="margin-top:.75rem">
+        <!-- JS pinta aquí -->
+      </div>
+    </article>
+  </div>
+</section>

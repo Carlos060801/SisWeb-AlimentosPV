@@ -1,0 +1,56 @@
+<section class="panel" id="donaciones">
+  <h2>Donaciones</h2>
+  <p class="muted">Conecta productos próximos a vencer con organizaciones sociales.</p>
+
+  <!-- Tabla de productos elegibles -->
+  <div class="table-wrap">
+    <table class="table" aria-describedby="don-desc">
+      <caption id="don-desc" class="sr-only">Productos elegibles para donación</caption>
+      <thead>
+        <tr>
+          <th></th>
+          <th>ID</th>
+          <th>Producto</th>
+          <th>Vence</th>
+          <th>Cantidad</th>
+          <th>Estado</th>
+        </tr>
+      </thead>
+      <!-- ✅ el cuerpo lo llena JS -->
+      <tbody id="don-prod-body"></tbody>
+    </table>
+  </div>
+
+  <h3>Asignar donación</h3>
+  <form class="form grid two" id="form-donacion">
+    <label class="field">
+      <span>Organización social</span>
+      <select name="organizacion" required>
+        <option value="" selected disabled>Selecciona beneficiario</option>
+        <option>Banco de Alimentos</option>
+        <option>Fundación Esperanza</option>
+        <option>Parroquia San José</option>
+        <option>Otra</option>
+      </select>
+    </label>
+
+    <label class="field">
+      <span>Fecha de entrega</span>
+      <input type="date" name="fecha" required />
+    </label>
+
+    <label class="field" style="grid-column:1/-1">
+      <span>Beneficiario (contacto)</span>
+      <input type="text" name="contacto" placeholder="Nombre del responsable" />
+    </label>
+
+    <label class="field">
+      <span>Cantidad entregada (total)</span>
+      <input type="number" name="cantidad" min="1" placeholder="Ej: 40" required />
+    </label>
+
+    <div class="actions" style="grid-column:1/-1">
+      <button class="btn primary" type="submit">Registrar entrega</button>
+    </div>
+  </form>
+</section>

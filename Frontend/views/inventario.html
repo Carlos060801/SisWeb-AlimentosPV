@@ -1,0 +1,45 @@
+<section class="panel" id="inventario">
+  <h2>Inventario</h2>
+  <p class="muted">Lista de productos registrados con filtros rápidos.</p>
+
+  <!-- Filtros -->
+  <div class="filters">
+    <label class="chip check">
+      <input type="checkbox" id="filt-7" />
+      <span>Próximos a vencer (7 días)</span>
+    </label>
+    <label class="chip check">
+      <input type="checkbox" id="filt-5" />
+      <span>Alimentos para donación (5 días)</span>
+    </label>
+
+    <div class="spacer"></div>
+
+    <label class="field inline">
+      <input type="search" id="inv-search" placeholder="Buscar por nombre o categoría…" />
+    </label>
+  </div>
+
+  <!-- Tabla -->
+  <div class="table-wrap">
+    <table class="table" aria-describedby="inv-desc">
+      <caption id="inv-desc" class="sr-only">
+        Tabla de inventario con acciones por fila
+      </caption>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nombre</th>
+          <th>Categoría</th>
+          <th>Fecha de vencimiento</th>
+          <th>Cantidad</th>
+          <th>Estado</th>
+          <th>Opciones</th>
+        </tr>
+      </thead>
+
+      <!-- ✅ tbody vacío, sin filas de ejemplo -->
+      <tbody id="inv-body"></tbody>
+    </table>
+  </div>
+</section>

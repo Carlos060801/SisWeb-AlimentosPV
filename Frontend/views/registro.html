@@ -1,0 +1,74 @@
+<section class="panel" id="registro">
+  <h2>Registro de productos</h2>
+  <p class="muted">Completa el formulario y guarda el producto.</p>
+
+  <!-- ✅ id agregado -->
+  <form aria-labelledby="registro-title" class="form" id="form-registro">
+    <div class="form-grid two">
+      <label class="field">
+        <span>Nombre del producto</span>
+        <input name="nombre" placeholder="Ej: Leche entera 1L" required type="text"/>
+      </label>
+
+      <label class="field">
+        <span>Categoría</span>
+        <select name="categoria" required>
+          <option disabled selected value="">Selecciona una categoría</option>
+          <option>Frutas</option>
+          <option>Verduras</option>
+          <option>Lácteos</option>
+          <option>Enlatados</option>
+          <option>Panadería</option>
+          <option>Congelados</option>
+          <option>Otros</option>
+        </select>
+      </label>
+
+      <label class="field">
+        <span>Código de barras</span>
+        <input inputmode="numeric" name="barcode" placeholder="EAN/UPC" type="text"/>
+      </label>
+
+      <label class="field">
+        <span>Fecha de registro</span>
+        <input name="f_registro" required type="date"/>
+      </label>
+
+      <label class="field">
+        <span>Fecha de exposición</span>
+        <input name="f_exposicion" type="date"/>
+      </label>
+
+      <label class="field">
+        <span>Fecha de vencimiento</span>
+        <input name="f_vencimiento" required type="date"/>
+      </label>
+
+      <label class="field">
+        <span>Cantidad</span>
+        <input min="1" name="cantidad" placeholder="Ej: 24" required step="1" type="number"/>
+      </label>
+
+      <label class="field">
+        <span>Proveedor</span>
+        <input name="proveedor" placeholder="Ej: Lácteos La Montaña" type="text"/>
+      </label>
+
+      <label class="field">
+        <span>Estado</span>
+        <select name="estado" required>
+          <option disabled selected value="">Selecciona estado</option>
+          <option>Disponible</option>
+          <option>En promoción</option>
+          <option>En donación</option>
+        </select>
+      </label>
+    </div>
+
+    <div class="actions">
+      <!-- ✅ type="submit" -->
+      <button class="btn primary" type="submit">Guardar producto</button>
+      <a class="btn ghost" href="#/inventario">Ir al inventario</a>
+    </div>
+  </form>
+</section>

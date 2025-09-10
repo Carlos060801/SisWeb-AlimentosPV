@@ -1,0 +1,29 @@
+<section id="dashboard" class="panel">
+  <h2>Dashboard</h2>
+  <p class="muted">Resumen en tiempo real de inventario, donaciones y alertas.</p>
+
+  <div class="grid three">
+    <!-- Progreso vencimiento -->
+    <div class="card center">
+      <h3>Próximos a vencer</h3>
+      <div class="progress-circle" style="--pct:0">
+        <span id="dash-pct">0%</span>
+      </div>
+      <p class="muted">Porcentaje de productos que vencen en 7 días</p>
+    </div>
+
+    <!-- Donaciones -->
+    <div class="card center">
+      <h3>Alimentos donados</h3>
+      <div class="big-number" id="dash-donaciones">0</div>
+      <p class="muted">Unidades entregadas</p>
+    </div>
+
+    <!-- Alertas -->
+    <div class="card center">
+      <h3>Alertas activas</h3>
+      <div class="big-number warn" id="dash-alertas">0</div>
+      <p class="muted">Productos en riesgo o en donación</p>
+    </div>
+  </div>
+</section>
