@@ -1,5 +1,6 @@
 # SisWeb-AlimentosPV
-![Uploading Logo corhuila.jpg…]()
+<img width="217" height="232" alt="Logo corhuila" src="https://github.com/user-attachments/assets/b10a44ff-a6af-410a-982e-97747c79a29d" />
+
 🌍 Sistema Web para el Control y Aprovechamiento Social de Alimentos Próximos a Vencer
 ------------------------------------------------------------------------------------------
 📌 Proyecto de Grado – Ingeniería de Sistemas
