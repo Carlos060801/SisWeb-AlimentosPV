@@ -81,4 +81,25 @@ Los nombres deben ser descriptivos y claros, evitar abreviaturas poco comunes.
 
 Los paquetes se escribirán en minúsculas.
 
-Estructura sugerida:
+
+3. Clases
+
+Nombres en PascalCase.
+
+Sufijos recomendados según capa:
+
+Entidad: Usuario, Producto, Donacion
+
+DTO: UsuarioDTO, ProductoDTO
+
+Repositorio: UsuarioRepository
+
+Servicio: UsuarioService, ProductoService
+
+Implementación de servicio: UsuarioServiceImpl
+
+Controlador: UsuarioController
+
+Ejemplo:
+
+public class ProductoController { ... }
