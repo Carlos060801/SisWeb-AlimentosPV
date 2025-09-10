@@ -41,4 +41,5 @@ fecha_registro
 fecha_vencimiento
 cantidad
 estado (activo, vendido, donado, vencido)
+-----------------------------------------------------------
 👉 Relación: cada producto pertenece a un supermercado/frutería (usuario).
