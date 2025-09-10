@@ -6,7 +6,7 @@ Politica de Nomenclatura
 * Se usará minúsculas para todos los nombres.
 
 * Las palabras se separarán con guion bajo (snake_case).
-Ejemplo: fecha_vencimiento, id_usuario.
+* Ejemplo: fecha_vencimiento, id_usuario.
 
 * Los nombres deben ser descriptivos y claros, evitando abreviaturas innecesarias.
 
@@ -15,48 +15,48 @@ Ejemplo: fecha_vencimiento, id_usuario.
 2. Tablas
 
 * Los nombres de tablas estarán en singular.
-Ejemplo: usuario, producto, donacion.
+* Ejemplo: usuario, producto, donacion.
 
 * Cuando se trate de tablas de relación (muchos a muchos), se concatenarán los nombres de las entidades relacionadas, separados por guion bajo.
-Ejemplo: producto_organizacion.
+* Ejemplo: producto_organizacion.
 
 3. Columnas
 
 * Las claves primarias tendrán el prefijo id_ seguido del nombre de la entidad.
-Ejemplo: id_usuario, id_producto.
+* Ejemplo: id_usuario, id_producto.
 
 * Las claves foráneas tendrán el mismo nombre que la clave primaria a la que hacen referencia.
-Ejemplo: en donacion, la FK hacia usuario será id_usuario.
+* Ejemplo: en donacion, la FK hacia usuario será id_usuario.
 
 * Los campos booleanos se nombrarán con prefijos es_, tiene_ o activo_.
-Ejemplo: es_activo, tiene_alerta.
+* Ejemplo: es_activo, tiene_alerta.
 
 * Los campos de fecha deberán comenzar con el prefijo fecha_.
-Ejemplo: fecha_registro, fecha_donacion.
+* Ejemplo: fecha_registro, fecha_donacion.
 
 4. Índices y restricciones
 
 * Los índices tendrán el prefijo idx_ seguido del nombre de la tabla y columna(s).
-Ejemplo: idx_producto_fecha_vencimiento.
+* Ejemplo: idx_producto_fecha_vencimiento.
 
 * Las claves foráneas tendrán el prefijo fk_ seguido de tabla_origen_tabla_destino.
-Ejemplo: fk_producto_usuario.
+* Ejemplo: fk_producto_usuario.
 
 * Las claves únicas tendrán el prefijo uk_ seguido del nombre de la tabla y columna(s).
-Ejemplo: uk_usuario_correo.
+* Ejemplo: uk_usuario_correo.
 
 5. Vistas
 
 * Las vistas tendrán el prefijo vw_ seguido de un nombre descriptivo.
-Ejemplo: vw_productos_proximos_vencer.
+* Ejemplo: vw_productos_proximos_vencer.
 
 6. Procedimientos y funciones
 
 * Los procedimientos almacenados se nombrarán con el prefijo sp_.
-Ejemplo: sp_registrar_donacion.
+* Ejemplo: sp_registrar_donacion.
 
 * Las funciones se nombrarán con el prefijo fn_.
-Ejemplo: fn_calcular_dias_restantes.
+* Ejemplo: fn_calcular_dias_restantes.
 
 7. Buenas prácticas adicionales
 
