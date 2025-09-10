@@ -41,4 +41,61 @@ fecha_registro
 fecha_vencimiento
 cantidad
 estado (activo, vendido, donado, vencido)
+
 👉 Relación: cada producto pertenece a un supermercado/frutería (usuario).
+
+3. Organizaciones
+
+id_organización (PK)
+
+nombre
+
+contacto
+
+dirección
+
+👉 Relación: reciben donaciones de alimentos.
+
+4. Donaciones
+
+id_donación (PK)
+
+id_producto (FK → Productos)
+
+id_organización (FK → Organizaciones)
+
+fecha
+
+cantidad
+
+estado (pendiente, entregado)
+
+👉 Relación: conecta productos con organizaciones receptoras.
+
+5. Alertas
+
+id_alerta (PK)
+
+id_producto (FK → Productos)
+
+tipo_alerta (ej. “7 días antes”, “5 días antes”)
+
+fecha_generada
+
+👉 Relación: se generan automáticamente según la fecha de vencimiento de los productos.
+
+🔗 Relaciones principales
+
+Usuario → Producto: un usuario (supermercado/frutería) registra muchos productos.
+
+Producto → Donación → Organización: un producto puede donarse a una organización.
+
+Producto → Alerta: cada producto puede tener varias alertas antes de vencer.
+
+📌 Esto en un diagrama entidad–relación (ERD) se vería así:
+
+Usuarios (1:N) Productos
+
+Productos (1:N) Donaciones (N:1) Organizaciones
+
+Productos (1:N) Alertas
