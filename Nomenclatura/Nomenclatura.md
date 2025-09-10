@@ -69,37 +69,34 @@ Politica de Nomenclatura
 ⚙️ Política de Nomenclatura – Backend (Spring Boot)
 1. Generalidades
 
-Todo el código debe estar en inglés (buena práctica internacional).
+* Todo el código debe estar en inglés (buena práctica internacional).
 
-Se usará CamelCase (primera palabra en minúscula, las siguientes con inicial mayúscula) para variables y métodos.
+* Se usará CamelCase (primera palabra en minúscula, las siguientes con inicial mayúscula) para variables y métodos.
 
-Para clases e interfaces se usará PascalCase (cada palabra empieza en mayúscula).
+* Para clases e interfaces se usará PascalCase (cada palabra empieza en mayúscula).
 
-Los nombres deben ser descriptivos y claros, evitar abreviaturas poco comunes.
+* Los nombres deben ser descriptivos y claros, evitar abreviaturas poco comunes.
 
 2. Paquetes
 
-Los paquetes se escribirán en minúsculas.
+* Los paquetes se escribirán en minúsculas.
 
 
 3. Clases
 
-Nombres en PascalCase.
+* Nombres en PascalCase.
 
-Sufijos recomendados según capa:
+* Sufijos recomendados según capa:
 
-Entidad: Usuario, Producto, Donacion
+* Entidad: Usuario, Producto, Donacion
 
-DTO: UsuarioDTO, ProductoDTO
+* DTO: UsuarioDTO, ProductoDTO
 
-Repositorio: UsuarioRepository
+* Repositorio: UsuarioRepository
 
-Servicio: UsuarioService, ProductoService
+* Servicio: UsuarioService, ProductoService
 
-Implementación de servicio: UsuarioServiceImpl
+* Implementación de servicio: UsuarioServiceImpl
 
-Controlador: UsuarioController
+* Controlador: UsuarioController
 
-Ejemplo:
-
-public class ProductoController { ... }
