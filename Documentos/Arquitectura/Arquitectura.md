@@ -99,3 +99,7 @@ Usuarios (1:N) Productos
 Productos (1:N) Donaciones (N:1) Organizaciones
 
 Productos (1:N) Alertas
+=======
+-----------------------------------------------------------
+👉 Relación: cada producto pertenece a un supermercado/frutería (usuario).
+>>>>>>> c327abd2a6f36dc680b46bfaaad0171c014e851c
