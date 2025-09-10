@@ -67,6 +67,7 @@ Politica de Nomenclatura
 * Documentar cada tabla y columna con un comentario que explique su propósito.
 --------------------------------------------------------------------------------
 ⚙️ Política de Nomenclatura – Backend (Spring Boot)
+
 1. Generalidades
 
 * Todo el código debe estar en inglés (buena práctica internacional).
@@ -99,4 +100,27 @@ Politica de Nomenclatura
 * Implementación de servicio: UsuarioServiceImpl
 
 * Controlador: UsuarioController
+--------------------------------------------------------
+🐙 Política de Nomenclatura – GitHub
+1. SisWeb-AlimentosPV
+* Usar kebab-case (minúsculas y guiones).
 
+* Ejemplo para tu proyecto:
+
+* control-alimentos-pv
+
+* aprovechamiento-alimentos
+
+* food-waste-control
+---------------------------------------------------------
+2. Ramas (Branches)
+
+main → rama estable (producción).
+
+develop → rama de desarrollo (últimos cambios integrados).
+
+Ramas de features en feature/nombre_funcionalidad.
+
+Ramas de bugs en bugfix/nombre_error.
+
+Ramas de hotfix en hotfix/nombre_urgente.
