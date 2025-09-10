@@ -3,17 +3,17 @@
 # Arquitectura Aplicación del SisWeb-AlimentosPV 
 ## Stack Tecnológico 
 
-** MYSQL ** 
+**MYSQL** 
 - Fiabilidad en la Construcción de la base de Datos y robustez
 - Escalabilidad
 - Características avanzadas.
 
-** Java Spring Boot **
+**Java Spring Boot**
 - Rapido y desarrollo
 - Seguridad
 - Soporte de la comunidad
 
-**Angula: **
+**Angular:**
 - Experiencia de usuario dinámico 
 - Rendimiento 
 - Ecosistema vibrante.
