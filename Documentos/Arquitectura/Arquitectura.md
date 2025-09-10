@@ -1,3 +1,4 @@
+<img width="217" height="232" alt="Logo corhuila" src="https://github.com/user-attachments/assets/3dbf0b72-4c10-4f27-8004-7fa5954f41bb" />
 # Arquitectura Aplicación del SisWeb-AlimentosPV 
 ## Stack Tecnológico 
 
