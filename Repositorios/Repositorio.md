@@ -13,3 +13,14 @@ Repositorio con la documentación para la gestión del ciclo de vida del equipo 
 URl 
 4. Frontend App
 Código fuente y documentación del frontend de la aplicación de gestión de laboratorios.
+URL: 
+5. Backend de Seguridad
+Repositorio del backend encargado de la gestión de seguridad y autenticación.
+URL: 
+6. Backend Gestión de Agenda
+Repositorio del backend dedicado a la gestión de la agenda.
+URL: 
+Enlaces de Interés 
+1. Drive del Proyecto: 
+2. Mockup del Proyecto:
+ Enlace a Figma con el mockup del proyecto para visualización del diseño y estructura de la aplicación.
