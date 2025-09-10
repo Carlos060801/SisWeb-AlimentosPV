@@ -65,3 +65,20 @@ Politica de Nomenclatura
 * Limitar la longitud de los nombres a un máximo de 30 caracteres.
 
 * Documentar cada tabla y columna con un comentario que explique su propósito.
+--------------------------------------------------------------------------------
+⚙️ Política de Nomenclatura – Backend (Spring Boot)
+1. Generalidades
+
+Todo el código debe estar en inglés (buena práctica internacional).
+
+Se usará CamelCase (primera palabra en minúscula, las siguientes con inicial mayúscula) para variables y métodos.
+
+Para clases e interfaces se usará PascalCase (cada palabra empieza en mayúscula).
+
+Los nombres deben ser descriptivos y claros, evitar abreviaturas poco comunes.
+
+2. Paquetes
+
+Los paquetes se escribirán en minúsculas.
+
+Estructura sugerida:
