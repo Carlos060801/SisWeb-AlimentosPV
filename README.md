@@ -1,4 +1,5 @@
 # SisWeb-AlimentosPV
+![Uploading Logo corhuila.jpg…]()
 🌍 Sistema Web para el Control y Aprovechamiento Social de Alimentos Próximos a Vencer
 ------------------------------------------------------------------------------------------
 📌 Proyecto de Grado – Ingeniería de Sistemas
