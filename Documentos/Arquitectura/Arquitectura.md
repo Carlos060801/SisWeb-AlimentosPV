@@ -13,7 +13,7 @@
 - Seguridad
 - Soporte de la comunidad
 
-**Angular:**
+** Front de Angular:**
 - Experiencia de usuario dinámico 
 - Rendimiento 
 - Ecosistema vibrante.
