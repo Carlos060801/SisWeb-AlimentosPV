@@ -17,3 +17,4 @@
 (Opcional) VentasAnticipadas = cantidad de productos vendidos con descuento.
 
 🧮 Modelo de regresión lineal múltiple
+Reducción Desperdicio = 
