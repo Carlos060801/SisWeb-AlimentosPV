@@ -16,7 +16,6 @@ Tito Fabian Aranda
 🎓 Directores
 Jesús Ariel Gonzales
 
-José Miguel Llanos
 -------------------------------------------------------------------------------------------
 📖 Resumen
 
